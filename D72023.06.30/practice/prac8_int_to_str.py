@@ -1,0 +1,5 @@
+d=int(input("enter "))
+print(d)
+print(type(d))
+d=str(d)
+print(type(d))

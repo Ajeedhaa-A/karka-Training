@@ -1,0 +1,11 @@
+#print "hello"
+print("Heloo, world!")
+print(5)
+print("5")
+print(5+2)
+print(82+78)
+print("82+78")
+#print(82+"78")
+#print("82"+78)
+#print("82"+"78")
+print("")

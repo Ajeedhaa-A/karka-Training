@@ -1,0 +1,5 @@
+d=input("Enter the integer")
+print(d)
+print(type(d))
+d=bool(d)
+print(type(d))
