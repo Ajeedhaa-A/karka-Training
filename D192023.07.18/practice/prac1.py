@@ -13,45 +13,14 @@ stud_details=[{"name": "abinaya","place":"vattavali",
               {"name":"sri_ram","place":"krishnankovil",
                "Hobbies":["1.criket" , "2.chess", "3.carom"],
                  "marks":{"Tamil":70,"English":85,"Maths":99,"Science":69,"Social":59}}]
-
 for stud in stud_details:
     total=0
-    perc=0
     s=stud['marks']
-    for i in s.values():
-        #print(i)
-      total=total+i
-    print(f"{stud['name']}'s Total:{total}")
-    perc=(total/500)*100
-    print(f"percentage:{perc}\n")
-    m=stud['marks']['Maths']
-    if perc>90 or perc>75 and m>98:
-            print(f"{stud['name']} is eligible for Mathsbio\n")
-      
-    elif perc>80 or perc>70 and m>98:
-        print(f"{stud['name']} is eligible for computerscience\n")
-
-    else:
-         print("not eligible for mathsbio or computer science")
-         
-   
-  
-
-    #sum=stud['marks']["Tamil"]+stud['marks']["English"]+stud['marks']["Maths"]+stud['marks']["Science"]+stud['marks']["Social"]
-    #print(sum)
-    for stud in stud_details:
-    #total=0
-    #perc=0
-        s=stud['marks']
+    print(s)
     for i in s:
-        #print(i)
-        s=stud['marks'][i]
-
-
-
-
-
-
-
-
-
+       
+        mark=stud['marks'][i]
+        total+=mark
+    print(total)
+    per=total/500*100
+    print(per)
