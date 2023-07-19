@@ -22,11 +22,8 @@ for i,item in resume:
         for o in item:
             print("\t",o)
             if type(o)==dict:
-               
-               
-               for h,t in o.items():
-                    
-                    print("\t\t",h,":",t)
+                for h,t in o.items():
+                   print("\t\t",h,":",t)
                    
     elif type(item)==dict:
         print(i,":")
