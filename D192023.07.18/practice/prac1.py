@@ -22,5 +22,5 @@ for stud in stud_details:
         mark=stud['marks'][i]
         total+=mark
     print(total)
-    per=total/500*100
+    per=total/len(stud['marks'])
     print(per)

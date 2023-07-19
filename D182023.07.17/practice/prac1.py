@@ -22,7 +22,7 @@ for stud in stud_details:
         #print(i)
       total=total+i
     print(f"{stud['name']}'s Total:{total}")
-    perc=(total/500)*100
+    perc=(total/len(s))
     print(f"percentage:{perc}\n")
     m=stud['marks']['Maths']
     if perc>90 or perc>75 and m>98:
